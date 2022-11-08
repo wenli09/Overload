@@ -1,0 +1,21 @@
+package day5;
+
+public class DemoOverload {
+	public static void main(String[] args) {
+		System.out. println(sumTwo (10,20));
+		System.out.println(sumThree(10,20,30));
+		System.out.println(sumFour(10,20,30,40));
+	}
+	public static int sumTwo(int a, int b) {
+		return a + b;
+		
+	}
+	public static int sumThree(int a, int b,int c) {
+		return a + b + c;
+		
+	}
+	public static int sumFour(int a, int b , int c, int d) {
+		return a + b + c +d;
+	}
+
+}
